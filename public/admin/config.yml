@@ -2,6 +2,8 @@ backend:
   name: git-gateway
   branch: main
 
+local_backend: false
+
 media_folder: "public/images"
 public_folder: "/images"
 
@@ -10,6 +12,7 @@ collections:
     label: "Gallery"
     folder: "content/gallery"
     create: true
+    format: "frontmatter"
     slug: "{{slug}}"
     fields:
       - { label: "Image", name: "image", widget: "image" }
