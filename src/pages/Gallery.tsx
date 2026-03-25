@@ -2,6 +2,19 @@ import { motion } from "motion/react";
 
 const images = [
   {
+    src: "/images/therapy1.jpg",
+    alt: "Therapy session",
+    category: "Therapy Sessions"
+  },
+  {
+    src: "/images/Screenshot 2024-06-16 135229.png",
+    alt: "Center activity",
+    category: "Activities"
+  }
+];
+
+/*const images = [
+  {
     src: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=800&auto=format&fit=crop",
     alt: "Child in occupational therapy",
     category: "Therapy Sessions"
@@ -46,7 +59,7 @@ const images = [
     alt: "Group activity",
     category: "Activities"
   }
-];
+];*/
 
 export function Gallery() {
   return (
